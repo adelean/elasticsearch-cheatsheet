@@ -2,7 +2,8 @@
 
 This cheatsheet is designed to fit a letter or A4 sheet and contains useful commands that can get you started with elasticsearch or speed you up when you are already familiar with it.
 
- - [Markdown / HTML version](elasticsearch-cheatsheet.md)
+ - [Markdown version](elasticsearch-cheatsheet.md)
+ - [HTML version](https://adelean.github.io/elasticsearch-cheatsheet/elasticsearch-cheatsheet.html)
  - [PDF version](elasticsearch-cheatsheet.pdf)
 
 Some of the APIs were introduced in recent versions. We recommend using version 5.6 or upper.
