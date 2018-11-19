@@ -318,7 +318,7 @@ GET _template/<template_name_pattern>
 ```json
 PUT /_template/<template_name>
 {
-  "template": "<index_pattern>",
+  "index_patterns": "<index_pattern>",
   "settings": {
     "index.refresh_interval": "5s",
     "index.number_of_replicas": "0",
