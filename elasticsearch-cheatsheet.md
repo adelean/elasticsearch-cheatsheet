@@ -378,6 +378,12 @@ GET _nodes/stats
 PUT <index>/_settings
 {
   "index": {
+    "search.slowlog.threshold.query.trace": "0s",
+    "search.slowlog.threshold.fetch.trace": "0s",
+    "search.slowlog.threshold.query.debug": "0s",
+    "search.slowlog.threshold.fetch.debug": "0s",
+    "search.slowlog.threshold.query.info": "0s",
+    "search.slowlog.threshold.fetch.info": "0s",
     "search.slowlog.threshold.query.warn": "0s",
     "search.slowlog.threshold.fetch.warn": "0s"
   }
