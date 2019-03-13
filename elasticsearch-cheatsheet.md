@@ -61,9 +61,9 @@ GET /<index>/_search
     "match_all": {}
   },
   "aggs": {
-    "type": {
+    "<field_agg_name>": {
       "terms": {
-        "field": "_type",
+        "field": "<field>.keyword",
         "size": 10
       }
     }
