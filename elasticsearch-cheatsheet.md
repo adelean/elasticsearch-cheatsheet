@@ -401,7 +401,7 @@ PUT /_snapshot/<backup>
   "type": "fs",
   "settings": {
     "compress": true,
-    "location": "<path.repo>"
+    "location": "<path.repo>/<backup>"
   }
 }
 PUT /_snapshot/<backup>/<snapshot>?wait_for_completion=false
